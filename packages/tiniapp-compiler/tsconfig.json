@@ -4,5 +4,6 @@
     "baseUrl": ".",
     "rootDir": "src",
     "outDir": "out"
-  }
+  },
+  "exclude": ["**/*.config.ts"]
 }
