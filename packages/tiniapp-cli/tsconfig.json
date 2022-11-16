@@ -2,6 +2,8 @@
   "extends": "../../configs/base.tsconfig",
   "compilerOptions": {
     "baseUrl": ".",
+    "rootDir": "src",
     "outDir": "out"
-  }
+  },
+  "exclude": ["**/*.config.ts"]
 }

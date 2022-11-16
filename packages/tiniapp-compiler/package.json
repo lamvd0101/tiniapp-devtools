@@ -2,11 +2,13 @@
   "name": "tiniapp-compiler",
   "private": true,
   "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
   "scripts": {
-    "clean": "rm -rf dist && rm -rf build",
-    "build": "tsc && vite build --config vite.config.ts",
-    "watch": "vite --config vite.config.ts",
-    "preview": "vite preview --config vite.config.ts"
+    "clean": "rm -rf dist && rm -rf out",
+    "build": "yarn clean && vite build",
+    "watch": "vite",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
