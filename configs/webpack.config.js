@@ -25,6 +25,9 @@ function extensionConfig(/**@type WebpackConfig*/ extConfig) {
           exclude: /node_modules/,
           use: [
             {
+              loader: 'node-loader',
+            },
+            {
               loader: 'ts-loader',
             },
           ],
