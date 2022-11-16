@@ -5,7 +5,7 @@
     "moduleResolution": "Node",
     "allowJs": true,
     "esModuleInterop": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "jsx": "react-jsx"
   }
 }
