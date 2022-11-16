@@ -2,11 +2,12 @@
   "name": "tiniapp-cli",
   "private": true,
   "version": "0.0.0",
-  "main": "./dist/index.js",
+  "type": "module",
+  "main": "./out/index.js",
   "scripts": {
-    "clean": "rm -rf dist && rm -rf out",
-    "build": "webpack",
-    "watch": "webpack --watch"
+    "clean": "rm -rf out",
+    "build": "tsc",
+    "watch": "tsc --w"
   },
   "dependencies": {
     "chalk": "^5.1.2",
