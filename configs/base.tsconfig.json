@@ -5,6 +5,7 @@
     "moduleResolution": "Node",
     "allowJs": true,
     "esModuleInterop": true,
-    "isolatedModules": false
+    "isolatedModules": false,
+    "declaration": true
   }
 }
