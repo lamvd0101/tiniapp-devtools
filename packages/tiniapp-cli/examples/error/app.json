@@ -1,0 +1,6 @@
+{
+  "pages": ["pages/error/index"],
+  "window": {
+    "defaultTitle": "Error"
+  }
+}

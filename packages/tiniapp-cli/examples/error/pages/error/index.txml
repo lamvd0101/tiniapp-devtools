@@ -1,0 +1,5 @@
+<view style="padding: 8px;">
+  <view class="error__message" style=" border-radius: 5px;background-color: rgba(206, 17, 38, 0.05); padding: 5px">
+    Invalid miniapp project. Could not find valid app.json in current working directory.
+  </view>
+</view>

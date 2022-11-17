@@ -1,3 +1,3 @@
-import {defineConfig} from './bundlers/vite';
+import {defineConfig as defineViteConfig} from './bundlers/vite';
 
-export {defineConfig};
+export {defineViteConfig};
