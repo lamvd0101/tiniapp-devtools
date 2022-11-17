@@ -9,7 +9,7 @@ const {_, ...args} = minimist(process.argv.slice(2));
   const [command, ...input] = cli;
   const supportCLI = false;
 
-  console.log(process.argv);
+  console.log(cli);
 
   if (!supportCLI) {
     console.log(`Invalid command ${chalk.blue(command)}`);
