@@ -10,8 +10,8 @@
     "build": "lerna run build --parallel",
     "watch": "lerna run watch --parallel",
     "lint": "eslint . --max-warnings 0 --ext .js,.jsx,.ts,.tsx",
-    "cli": "yarn workspace tiniapp-cli",
-    "compiler": "yarn workspace tiniapp-compiler"
+    "cli": "yarn workspace @tiniapp/cli",
+    "compiler": "yarn workspace @tiniapp/compiler"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",

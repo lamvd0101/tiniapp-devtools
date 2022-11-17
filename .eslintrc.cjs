@@ -16,12 +16,12 @@ module.exports = {
       },
       plugins: ['@typescript-eslint'],
       extends: ['plugin:@typescript-eslint/recommended'],
-      // rules: {
-      //   'no-shadow': 'off',
-      //   '@typescript-eslint/no-explicit-any': 'off',
-      //   '@typescript-eslint/ban-types': 'off',
-      //   '@typescript-eslint/no-var-requires': 'off',
-      // },
+      rules: {
+        'no-shadow': 'off',
+        '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/ban-types': 'off',
+        '@typescript-eslint/no-var-requires': 'off',
+      },
     },
   ],
 };
