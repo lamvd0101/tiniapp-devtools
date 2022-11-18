@@ -1,0 +1,7 @@
+{
+  "extends": "../../configs/base.tsconfig",
+  "compilerOptions": {
+    "outDir": "out"
+  },
+  "include": ["src"]
+}
